@@ -1,0 +1,7 @@
+*** REQUIRMENTS ANALYSIS***
+
+1. Is Login Required for viewers?
+2. Is Community to add questions required?
+3. Are viewers allowed to post questions?(if so we need the login for viewers too).
+4. Database schema?
+5. Bac end server (how many routes i.e total web pages)?
