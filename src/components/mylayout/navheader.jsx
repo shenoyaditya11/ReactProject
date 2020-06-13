@@ -4,7 +4,7 @@ import './navheader-style.css'
 export const Nav = (props)=>{
     
         return (
-            <nav class="navbar">
+          <nav class="navbar">
             <a class="active" href="#">Home</a>
             <a href="#"> Prepration</a>
             <a href="#">Interview</a>
