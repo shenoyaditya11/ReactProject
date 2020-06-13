@@ -1,7 +1,7 @@
 import React from 'react'
 import './my_layout-style.css'
-import {Card} from '/home/aditya/hello-world/src/components/card/card-component'
-import {Rows} from '/home/aditya/hello-world/src/components/mylayout/row-layout'
+import {Card} from '../card/card-component'
+import {Rows} from './row-layout'
 
 
 export const MainBody = (props)=>{
