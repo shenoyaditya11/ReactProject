@@ -1,23 +1,26 @@
 import React from 'react'
 import './my_layout-style.css'
-import {Card} from '../card/card-component'
 import {Rows} from './row-layout'
 
 
 export const MainBody = (props)=>{
     
-        return (
+        
+        return (props.todo.length === 0 )? <h2>Nothing ToDo</h2> : (
+
+
             <div className='main'>
+                
                 {
             
-                    props.monsters.map(
+                    props.todo.map(
                         (data, index) => {
                             if(index %2 == 0)
-                                return (<Rows cat={data}
-                                    side = {"right"} />);
+                                return (<Rows cat={data} uid={props.uid}
+                                    side = {"right"} index ={index} />);
                             else
-                                return (<Rows cat={data}
-                                    side = {"left"} />);
+                                return (<Rows cat={data} uid={props.uid}
+                                    side = {"left"} index={index} />);
                         }   
                                    
                                 

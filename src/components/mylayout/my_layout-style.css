@@ -1,23 +1,24 @@
 .main{
     display:grid;
-    width:calc(100%-180px);
-    margin:10px 100px 10px 250px;
+    width: 500px;
+    margin: 20px calc(50% - 250px) ;
     grid-gap: 20px;
     grid-column: 1;
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px){
     .main{
      display:grid;
      grid-column: 1;
      float:left;
-     width:calc(100% - 20px);
-     margin-top:calc(auto+10px);
-     margin-right:10px;
+     width:calc(100% - 50%);
+     margin-top:30px;
+     margin-right:calc( calc(100%/2) - calc(100% - 50%)/2);
      margin-bottom: auto; 
-     margin-left: 10px;
+     margin-left: calc( 50% - 25%);
     
     }
    
    }
+
