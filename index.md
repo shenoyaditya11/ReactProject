@@ -17,7 +17,9 @@
     <title>React App</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+	Hinew
+   </div>
     
   </body>
 </html>
