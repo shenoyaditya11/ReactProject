@@ -3,6 +3,8 @@ import UserProvider from "./providers/userProviders";
 import {createBrowserHistory} from 'history';
 
 import {
+
+  HashRouter as HRouter,
   BrowserRouter as Router,
   Route,
   Redirect,
@@ -73,7 +75,7 @@ this.state={
       <div className="App">
 
          
-          <Router>
+          <HRouter>
 
           <StaticNav></StaticNav>
            
@@ -91,7 +93,7 @@ this.state={
 
             </Switch>
             
-          </Router>
+          </HRouter>
 
          
           
