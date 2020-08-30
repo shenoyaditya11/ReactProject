@@ -1,7 +1,7 @@
 {
   "name": "hello-world",
   "version": "0.1.0",
-  "private": true,
+  "private":true,
   "homepage": "https://shenoyaditya11.github.io/ReactProject",
   "dependencies": {
     "@types/react-router": "^5.1.7",
