@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shenoyaditya11.github.io/ReactProject",
+  "homepage": "https://shenoyaditya11.github.io/ReactProject",
   "dependencies": {
     "@types/react-router": "^5.1.7",
     "@types/react-router-dom": "^5.1.5",
